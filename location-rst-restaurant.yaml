@@ -1,5 +1,7 @@
 server:
-  port: 8080
+  port: ${PORT:8084}
+  servlet:
+    context-path: /
 eureka:
   client:
     fetch-registry: true

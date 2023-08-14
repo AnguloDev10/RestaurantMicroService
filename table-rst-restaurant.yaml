@@ -1,6 +1,6 @@
 server:
   port: ${PORT:8086}
-  servlet:
+    servlet:
     context-path: /
 eureka:
   client:
